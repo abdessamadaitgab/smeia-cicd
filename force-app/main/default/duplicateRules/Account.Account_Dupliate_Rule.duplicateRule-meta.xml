@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Use one of these records?</alertText>
+    <description xsi:nil="true"/>
+    <duplicateRuleFilter xsi:nil="true"/>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Account</matchRuleSObjectType>
+        <matchingRule>Match_Account</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>Match_lead_With_only_ICE</matchingRule>
+        <objectMapping>
+            <inputObject>Account</inputObject>
+            <mappingFields>
+                <inputField>ICE__c</inputField>
+                <outputField>ICE__c</outputField>
+            </mappingFields>
+            <outputObject>Lead</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>PersonAccount</matchRuleSObjectType>
+        <matchingRule>Match_Person_Account_with_only_ICE</matchingRule>
+        <objectMapping>
+            <inputObject>Account</inputObject>
+            <mappingFields>
+                <inputField>ICE__c</inputField>
+                <outputField>ICE__c</outputField>
+            </mappingFields>
+            <outputObject>PersonAccount</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Account Dupliate Rule</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>1</sortOrder>
+</DuplicateRule>

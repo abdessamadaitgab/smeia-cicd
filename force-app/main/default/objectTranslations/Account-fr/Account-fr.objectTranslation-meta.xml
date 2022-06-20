@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Présentation du compte personnel</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMEIA Compte Personnel</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>Informations complémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Préférences de communication</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMEIA Compte Professionnel</layout>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Compte_Professionnel</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Account_VR_001_ICESansCaractereSpeciaux</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

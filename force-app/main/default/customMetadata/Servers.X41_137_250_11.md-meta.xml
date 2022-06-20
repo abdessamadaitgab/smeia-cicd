@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>41.137.250.11</label>
+    <protected>false</protected>
+    <values>
+        <field>End__c</field>
+        <value xsi:type="xsd:string">http://41.137.250.11/jobrouter/api/rest/v2/application/jobdata/tables/E6C7BADC-14CF-9C99-56FE-8692D510889C/datasets</value>
+    </values>
+    <values>
+        <field>Serveur_number__c</field>
+        <value xsi:type="xsd:double">4.0</value>
+    </values>
+</CustomMetadata>

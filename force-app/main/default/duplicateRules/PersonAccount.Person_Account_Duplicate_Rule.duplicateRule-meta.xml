@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>Use one of these records?</alertText>
+    <description xsi:nil="true"/>
+    <duplicateRuleFilter xsi:nil="true"/>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>PersonAccount</matchRuleSObjectType>
+        <matchingRule>Match_person_Account</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Contact</matchRuleSObjectType>
+        <matchingRule>Match_Contact</matchingRule>
+        <objectMapping>
+            <inputObject>PersonAccount</inputObject>
+            <mappingFields>
+                <inputField>CIN__pc</inputField>
+                <outputField>CIN__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>PersonEmail</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>PersonMobilePhone</inputField>
+                <outputField>MobilePhone</outputField>
+            </mappingFields>
+            <outputObject>Contact</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>Match_Lead</matchingRule>
+        <objectMapping>
+            <inputObject>PersonAccount</inputObject>
+            <mappingFields>
+                <inputField>CIN__pc</inputField>
+                <outputField>CIN__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>PersonEmail</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>ICE__c</inputField>
+                <outputField>ICE__c</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>PersonMobilePhone</inputField>
+                <outputField>MobilePhone</outputField>
+            </mappingFields>
+            <outputObject>Lead</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Person Account Duplicate Rule</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>1</sortOrder>
+</DuplicateRule>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prospect</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prospects</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>SMEIA Prospect Particulier</layout>
+        <sections>
+            <label></label>
+            <section>Informations du Web</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations du prospect</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Obligatoires pour la conversion</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Obligatoires pour la création</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SMEIA Prospect Professionnel</layout>
+        <sections>
+            <label></label>
+            <section>Informations du Web</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informations supplémentaires</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Obligatoires pour la conversion</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Obligatoires pour la création</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Particulier</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Professionnel</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_001_Civilite_Obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_002_Prenom_Obligatoire</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_003_PrenomSansCaractereSpeciaux</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_004_NomSansCaractereSpeciaux</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_005_Indicatif_Telephone_Mobile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_006_Email_obligatoire_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_007_Marque_non_autorisee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_008_CIN_SansCaractereSpeciaux</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_009_ICESansCaractereSpeciaux</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_010_Validation_statut_Prospect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_011_Source</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_012_Campaign</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_013_Source</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_014_Address_oblig_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_015_Rating_oblig_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_016_methode_oblig_conversion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_017_Campaign_NotOblig</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Lead_VR_017_ICE_Conversion</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

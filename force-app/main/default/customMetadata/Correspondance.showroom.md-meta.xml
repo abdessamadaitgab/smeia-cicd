@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>showroom</label>
+    <protected>false</protected>
+    <values>
+        <field>Destination_value__c</field>
+        <value xsi:type="xsd:string">Soutra - Concessionnaire agréé Smeia BMW</value>
+    </values>
+    <values>
+        <field>Source_value__c</field>
+        <value xsi:type="xsd:string">Soutra Agadir</value>
+    </values>
+    <values>
+        <field>field_api_name__c</field>
+        <value xsi:type="xsd:string">showroom__c</value>
+    </values>
+    <values>
+        <field>sObject__c</field>
+        <value xsi:type="xsd:string">Lead;Product</value>
+    </values>
+</CustomMetadata>

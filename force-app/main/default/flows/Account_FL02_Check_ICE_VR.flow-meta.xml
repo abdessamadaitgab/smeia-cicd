@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>isICEvalide</name>
+        <label>isICEvalide</label>
+        <locationX>182</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>no</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>iceValide</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>VR_Active</targetReference>
+            </connector>
+            <label>no</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>iceValide</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Record.RecordType.DeveloperName} = &apos;Compte_Professionnel&apos; &amp;&amp; (ISBLANK({!$Record.ICE__c}) || REGEX( {!$Record.ICE__c},&quot;^[a-zA-Z0-9]*$&quot;)) &amp;&amp; LEN({!$Record.ICE__c}) &lt;&gt; 15 &amp;&amp;
+NOT(ISPICKVAL( {!$Record.Type} ,&quot;Diplomate&quot;)) &amp;&amp;
+NOT(ISPICKVAL( {!$Record.Type}  , &quot;Ambassade&quot;)) &amp;&amp;
+NOT(ISPICKVAL( {!$Record.Type}  , &quot;consulat&quot;))</expression>
+    </formulas>
+    <interviewLabel>[Account] FL02 Check ICE VR {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>[Account] FL02 Check ICE VR</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>VR_Active</name>
+        <label>VR Active</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>TECH_ICE__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>isICEvalide</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>
