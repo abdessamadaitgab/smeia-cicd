@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObjectTranslation></CustomObjectTranslation>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label></label>
+        <name>Envoy_le_d_taille_de_Ticket</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Envoyer_par_Email</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Trait</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>cloturer_case</name>
+    </quickActions>
+</CustomObjectTranslation>

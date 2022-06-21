@@ -173,6 +173,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>StandardValueSetTranslation</name>
 	</types>
 	<version>53.0</version>

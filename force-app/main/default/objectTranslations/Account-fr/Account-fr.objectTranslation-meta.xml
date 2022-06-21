@@ -34,6 +34,30 @@
             <section>Informations supplémentaires</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Creer_un_ticket</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Opportunit_Commande_sp_cial</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Opportunit_VN</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Opportunit_VO</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Opportunite_Offer</name>
+    </quickActions>
     <recordTypes>
         <label></label>
         <name>Compte_Professionnel</name>

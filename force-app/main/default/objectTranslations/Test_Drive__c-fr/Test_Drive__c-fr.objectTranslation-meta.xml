@@ -9,5 +9,13 @@
         <value>Test Drives</value>
     </caseValues>
     <gender>Masculine</gender>
+    <quickActions>
+        <label></label>
+        <name>Annuler</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Test_Drive_Effectu</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
