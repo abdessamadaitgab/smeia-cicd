@@ -16,6 +16,14 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AX001_AddBDC</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AX01_TempsEcoule</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Task_BA01_NotifyManager</apexClass>
         <enabled>false</enabled>
     </classAccesses>

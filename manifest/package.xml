@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>AX001_AddBDC</members>
+		<members>AX01_TempsEcoule</members>
 		<members>Task_BA01_NotifyManager</members>
 		<members>Task_SCH01_BatchNotify</members>
 		<members>Test_Task_BA01_NotifyManager</members>
