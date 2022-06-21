@@ -39,7 +39,8 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>Account-fr</members>
+		<members>Lead-fr</members>
 		<name>CustomObjectTranslation</name>
 	</types>
 	<types>
@@ -91,6 +92,12 @@
 		<members>unfiled$public/confirmation_for_lead</members>
 		<members>unfiled$public/conversion_lead</members>
 		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>SMEIA_360_UtilityBar</members>
+		<members>SMEIA_FORCE_UtilityBar</members>
+		<members>SMEIA_Toolkit_UtilityBar</members>
+		<name>FlexiPage</name>
 	</types>
 	<types>
 		<members>Account_FL01_Update_a_principal_contact_in_account</members>
