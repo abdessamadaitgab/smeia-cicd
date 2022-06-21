@@ -9,29 +9,5 @@
         <value>Proformas et Bons de commande</value>
     </caseValues>
     <gender>Masculine</gender>
-    <quickActions>
-        <label></label>
-        <name>Annuler</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>G_n_rer_Offer</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>G_n_rer_Proforma</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Generer_Bon_de_commande</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>SendEmail</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Test_pdf</name>
-    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

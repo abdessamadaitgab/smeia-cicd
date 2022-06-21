@@ -9,25 +9,5 @@
         <value>Stocks</value>
     </caseValues>
     <gender>Masculine</gender>
-    <quickActions>
-        <label></label>
-        <name>Facturer</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Lancement_de_transfert</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Preparer</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Receptionner</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
-        <name>Test_pdf</name>
-    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
