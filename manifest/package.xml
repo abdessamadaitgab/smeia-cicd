@@ -38,6 +38,7 @@
 		<members>Case</members>
 		<members>Quote</members>
 		<members>QuoteLineItem</members>
+		<members>Stock__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
