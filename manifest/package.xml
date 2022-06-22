@@ -37,6 +37,7 @@
 		<members>Lead</members>
 		<members>PersonAccount</members>
 		<members>Task</members>
+		<members>User</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
