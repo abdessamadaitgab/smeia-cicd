@@ -22,12 +22,6 @@
 		<name>CompactLayout</name>
 	</types>
 	<types>
-		<members>SMEIA_360</members>
-		<members>SMEIA_FORCE</members>
-		<members>SMEIA_Toolkit</members>
-		<name>CustomApplication</name>
-	</types>
-	<types>
 		<members>Account</members>
 		<members>Account</members>
 		<members>Activity</members>
@@ -37,7 +31,6 @@
 		<members>Lead</members>
 		<members>PersonAccount</members>
 		<members>Task</members>
-		<members>User</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -187,7 +180,6 @@
 		<members>Custom_Story</members>
 		<members>FeedItem.NewTaskFromFeedItem</members>
 		<members>Follow_Up</members>
-		<members>Lead.Ajouter_un_ticket</members>
 		<members>Lead.Reaffectation</members>
 		<members>LogACall</members>
 		<members>NewAccount</members>
@@ -258,8 +250,6 @@
 		<members>Task.UpdateStatus_7</members>
 		<members>Task.UpdateStatus_8</members>
 		<members>Task.UpdateStatus_9</members>
-		<members>Test_Drive__c.Annuler</members>
-		<members>Test_Drive__c.Test_Drive_Effectu</members>
 		<members>agf__ADM_Product_Tag__c.Configure_Product_Tag_Fields</members>
 		<members>agf__ADM_Work__c.CustomEditBug</members>
 		<members>agf__ADM_Work__c.CustomEditInvestigation</members>

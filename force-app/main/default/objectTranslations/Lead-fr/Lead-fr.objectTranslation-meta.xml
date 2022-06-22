@@ -53,10 +53,6 @@
     </layouts>
     <quickActions>
         <label></label>
-        <name>Ajouter_un_ticket</name>
-    </quickActions>
-    <quickActions>
-        <label></label>
         <name>Reaffectation</name>
     </quickActions>
     <recordTypes>
