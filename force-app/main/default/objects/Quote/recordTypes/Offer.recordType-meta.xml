@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offer</fullName>
+    <active>true</active>
+    <label>Offer</label>
+    <picklistValues>
+        <picklist>Motif_d_annulation_picklist__c</picklist>
+        <values>
+            <fullName>Changement des options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Changement des prix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le client a change d%27avis</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Annulé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nouveau</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_d_annulation__c</picklist>
+        <values>
+            <fullName>Approuvé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En cours d%27approbation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejeté</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
