@@ -40,5 +40,9 @@
 		<members>QuoteLineItem</members>
 		<name>CustomObject</name>
 	</types>
+	<types>
+		<members>*</members>
+		<name>Queue</name>
+	</types>
 	<version>53.0</version>
 </Package>
