@@ -51,6 +51,10 @@
             <section>Obligatoires pour la création</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label></label>
+        <name>Reaffectation</name>
+    </quickActions>
     <recordTypes>
         <label></label>
         <name>Particulier</name>

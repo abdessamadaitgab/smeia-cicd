@@ -34,6 +34,10 @@
             <section>Informations supplémentaires</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label></label>
+        <name>Child_Account</name>
+    </quickActions>
     <recordTypes>
         <label></label>
         <name>Compte_Professionnel</name>
